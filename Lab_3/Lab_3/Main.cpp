@@ -14,6 +14,6 @@ public:
 int main()
 {
     Subject subj;
-    Wrapper<Subject,int,int> wrapper(&subj, &Subject::f3, { {"arg1", 0}, {"arg2", 0} });
+    Wrapper wrapper(&subj, &Subject::f3, { {"arg1", 0}, {"arg2", 0} });
 }
 
